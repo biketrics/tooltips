@@ -2,8 +2,20 @@
 A repository whose README.md contains concise command/tool notes that biketrics developers use frequently.
 
 ---
+## Table of Contents
+  - [SSH](#ssh)
+    - [SSH-ing to a linux machine using password authentication:](#ssh-ing-to-a-linux-machine-using-password-authentication)
+      - [Example:](#example)
+  - [Git](#git)
+    - [Generate an SSH key pair:](#generate-an-ssh-key-pair)
+      - [Example:](#example-1)
+    - [Add your SSH key to GitHub:](#add-your-ssh-key-to-github)
+    - [Cloning a repo using SSH:](#cloning-a-repo-using-ssh)
+      - [Example:](#example-2)
+
+---
 ## SSH
-### SSHing to a linux machine using password authentication:
+### SSH-ing to a linux machine using password authentication:
 ```
 ssh <username>@<ip/hostname>
 ```
