@@ -6,9 +6,11 @@ A repository whose README.md contains concise command/tool notes that biketrics 
   - [SSH](#ssh)
     - [SSHing Using Password Authentication:](#ssh-ing-using-password-authentication)
   - [Git](#git)
-    - [Generate an SSH key pair:](#generate-an-ssh-key-pair)
-    - [Add your SSH key to GitHub:](#add-your-ssh-key-to-github)
-    - [Cloning a repo using SSH:](#cloning-a-repo-using-ssh)
+    - [Generate an SSH Key-Pair:](#generate-an-ssh-key-pair)
+    - [Add your SSH Key to GitHub:](#add-your-ssh-key-to-github)
+    - [Cloning a Repo using SSH:](#cloning-a-repo-using-ssh)
+ - [Visual Studio Code](#visual-studio-code)
+    - [Recommended settings.json](#recommended-settingsjson)
 
 ---
 ## SSH
@@ -89,4 +91,15 @@ git clone ssh://git@github.com/<user>/<repository name>.git
 __Example:__
 ```
 git clone ssh://git@github.com/biketrics/tooltips.git
+```
+
+---
+## Visual Studio Code
+### Recommended `settings.json`
+```
+{
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+}
 ```
